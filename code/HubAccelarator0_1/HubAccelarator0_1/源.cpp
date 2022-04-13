@@ -125,7 +125,38 @@ void BFSExtraction(graph &g,int centerNode,int k) {
 			e = e->next;
 		}
 	}
+	delete[]queue;
+	delete[]parent;
+	delete[]level;
+	delete[]f;
+	delete[]b;
 }
+void HN_BBFS(graph&g,int k,int s,int t) {
+	//队列信息
+	int* queueF = new int[QUEUESIZE];
+	int headF =0, tailF = 0;
+	int* queueB = new int[QUEUESIZE];
+	int headB = 0, tailB = 0;
+	queueF[tailF++] = s;
+	queueB[tailB++] = t; //入队列
+	//
+	int dist = k + 1;
+	bool meet = false;
+
+	while ((headF != tailF && headB != tailB) && not meet);
+
+
+
+	delete[]queueB;
+	delete[]queueF;
+
+}
+void ForwardSearch(int * queueF,bool verification) {
+
+}
+
+
+
 int main() {
 	//读取文件信息
 	graph g(PATH+string("graph.txt"));
