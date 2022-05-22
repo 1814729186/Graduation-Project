@@ -1,0 +1,3 @@
+﻿  源.cpp
+F:\Daily_Files\Study_Files\gitFolder\Graduation-Project\code\Groute_SSSP\cuda\源.cpp(16,21): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+F:\Daily_Files\Study_Files\gitFolder\Graduation-Project\code\Groute_SSSP\cuda\源.cpp(56,18): error C2059: 语法错误:“<”
